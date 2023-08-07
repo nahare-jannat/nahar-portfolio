@@ -65,9 +65,12 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin: 130px;
+}
 /* about section styles */
 .about{
-    margin-top: 130px;
+
     background-color: #fff8f3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -77,6 +80,7 @@ main{
     margin-bottom: 30px;
     font-size: 35px;
     font-weight: 700;
+    text-align: center;
 }
 .section-description{
     color: #757575;
@@ -99,4 +103,63 @@ tr{
     font-size: 20px;
     font-weight: 700;
     color: #757575;
+}
+/* what I Do styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 150px;
+}
+.skill{
+    background: #fff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+    font-size: 15px;
+}
+/* Summery of Resume Section Styles */
+.resume-content{
+    display: flex;
+    gap: 71px;
+    margin-top: 113px;
+}
+.resume-content h2, h3{
+    color: #474747;
+}
+.resume-content p{
+    color: #757575;
+}
+.resume-title{
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.resume-subtitle{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.resume-details{
+    margin-bottom: 20px;
+}
+.resume-paragraph{
+    margin-bottom: 30px;
+    font-size: 15px;
+
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #D1D1D1;
+}
+.download{
+    margin-top: 30px;
+    text-align: center;
 }
